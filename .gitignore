@@ -1,0 +1,30 @@
+# Package build output
+src/
+pkg/
+*.pkg.tar
+*.pkg.tar.*
+*.src.tar.*
+*.log
+
+# Local repository output
+repo/
+*.db
+*.db.tar.*
+*.files
+*.files.tar.*
+
+# Secrets: never commit private keys or credentials
+*.key
+*.pem
+*.p12
+*.gpg
+secret*
+.env
+
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
